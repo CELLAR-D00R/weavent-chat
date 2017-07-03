@@ -3,7 +3,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var i;
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 /**
  * Gestion des requêtes HTTP des utilisateurs en leur renvoyant les fichiers du dossier 'public'
